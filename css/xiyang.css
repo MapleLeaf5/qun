@@ -1,0 +1,51 @@
+@charset "utf-8";
+body {
+  margin: 0;
+  background: url(../imgs/311545551.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+li {
+  background: url(../imgs/4651225.png) no-repeat;
+
+  border-bottom: 3px solid #f01b42;
+}
+li a:link {
+  color: rgb(255, 0, 102);
+  text-decoration: none;
+}
+li a:visited {
+  color: rgb(255, 0, 102);
+}
+li a:hover {
+  color: #f13c0f;
+}
+.toubei {
+  background-color: rgba(224, 94, 65, 0.3);
+  border-bottom: 3px solid#f01b42;
+}
+.zuoxwen > pre {
+  color: rgba(0, 0, 0, 0.751);
+}
+.youswen > pre {
+  color: rgba(0, 0, 0, 0.751);
+}
+.zuoxwen > img {
+  -webkit-filter: brightness(78%);
+  filter: brightness(78%);
+}
+.youswen > img {
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%);
+}
+.youswen img:hover {
+  box-shadow: 0px -2px 15px #d111447b, 0px 2px 15px #d111447b,
+    -2px 0px 15px #d111447b, 2px 0px 15px #d111447b;
+}
+.zuoxwen img:hover {
+  box-shadow: 0px -2px 15px #d111447b, 0px 2px 15px #d111447b,
+    -2px 0px 15px #d111447b, 2px 0px 15px #d111447b;
+}
+.juzhong p {
+  color: #f01b42;
+}

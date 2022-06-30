@@ -1,0 +1,62 @@
+@charset "utf-8";
+body {
+  margin: 0;
+  background: url(../imgs/123125412103.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+li {
+  background: url(../imgs/12651551.png) no-repeat;
+  border-bottom: 3px solid rgba(40, 89, 234, 0.697);
+}
+li a:link {
+  color: rgba(87, 204, 250, 0.948);
+  text-decoration: none;
+}
+li a:visited {
+  color: rgba(87, 204, 250, 0.948);
+}
+li a:hover {
+  color: rgba(34, 82, 225, 0.807);
+}
+.toubei {
+  background-color: rgba(165, 216, 248, 0.5);
+  border-bottom: 3px solid rgba(29, 74, 208, 0.486);
+}
+.zuoxwen > img {
+  -webkit-filter: brightness(110%);
+  filter: brightness(110%);
+}
+.youswen > img {
+  -webkit-filter: brightness(105%);
+  filter: brightness(105%);
+}
+.zuoxwen > pre {
+  color: rgba(0, 0, 0, 0.903);
+  letter-spacing: 3px;
+}
+.youswen > pre {
+  color: rgba(0, 0, 0, 0.903);
+  letter-spacing: 6px;
+  padding-left: 15px;
+}
+.youswen img:hover {
+  box-shadow: 0px -2px 15px rgba(248, 252, 253, 0.4),
+    0px 2px 15px rgba(248, 252, 253, 0.4),
+    -2px 0px 15px rgba(248, 252, 253, 0.4),
+    2px 0px 15px rgba(248, 252, 253, 0.4);
+}
+.zuoxwen img:hover {
+  box-shadow: 0px -2px 15px rgba(248, 252, 253, 0.4),
+    0px 2px 15px rgba(248, 252, 253, 0.4),
+    -2px 0px 15px rgba(248, 252, 253, 0.4),
+    2px 0px 15px rgba(248, 252, 253, 0.4);
+}
+.juzhong img {
+  width: 200px;
+  -webkit-filter: brightness(95%);
+  filter: brightness(95%);
+}
+.juzhong p {
+  color: rgba(0, 247, 255, 0.948);
+}

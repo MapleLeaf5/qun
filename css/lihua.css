@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* 不显示滚动条 */
+body::-webkit-scrollbar {
+  display: none;
+}
+.flex {
+  display: flex;
+}
+.flex1 {
+  flex-direction: column;
+}
+/* 导航 */
+ul {
+  margin: 0;
+}
+li {
+  width: 180px;
+  height: 60px;
+  float: left;
+  list-style: none;
+  color: rgb(255, 0, 102);
+  line-height: 60px;
+  font-size: 1.5em;
+  font-weight: bolder;
+  letter-spacing: 15px;
+}
+.juzhong {
+  width: 200px;
+  margin: 40px auto;
+}
+/* 半透明背景 */
+.toubei {
+  width: 900px;
+  margin: 0 auto;
+  border-radius: 4%;
+  height: 660px;
+  margin-top: 50px;
+}
+/* 内容 */
+.zuoxwen > img {
+  width: 450px;
+  border-radius: 8%;
+  margin-left: 36px;
+  margin-top: 45px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+    rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+}
+.zuoxwen > pre {
+  font-size: 1.3em;
+  font-weight: bolder;
+  line-height: 0px;
+  margin-top: 48px;
+  margin-right: 90px;
+  text-align: right;
+}
+.youswen > pre {
+  font-size: 1.3em;
+  font-weight: bolder;
+  line-height: 2px;
+  margin-left: 26px;
+  margin-top: 61px;
+}
+.youswen > img {
+  width: 450px;
+  border-radius: 8%;
+  margin-left: -75px;
+  margin-top: 40px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+    rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+}
+/* 图片伪类 */
+.youswen img:hover {
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.zuoxwen img:hover {
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+/* 音符 */
+.yinfu {
+  float: right;
+  margin-right: 170px;
+}
+.yinfu a {
+  z-index: 9999;
+  margin-top: 90px;
+  text-align: right;
+  position: fixed;
+}
+/* 音符大小旋转 */
+.yinfu img {
+  width: 50px;
+  background-attachment: fixed;
+  border-radius: 250px;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  animation: rotation 4s linear infinite;
+  -o-animation: rotation 4s linear infinite;
+}
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+.gao3 {
+  height: 300px;
+}
+.juzhong p {
+  width: 150px;
+  margin-top: 5px;
+  margin-left: 25px;
+  font-size: 1.7em;
+  font-weight: bolder;
+}
+.daohang {
+  width: 1000px;
+  height: 60px;
+  margin: 0 auto;
+}
+.mgl55 {
+  margin-left: 55px;
+}
+.mgl35 {
+  margin-left: 35px;
+}
+.jiantou {
+  text-align: center;
+  margin-top: 5px;
+}
+.jiantou img {
+  width: 60px;
+}
